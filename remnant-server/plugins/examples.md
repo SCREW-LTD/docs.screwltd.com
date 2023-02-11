@@ -9,7 +9,7 @@ description: Plugin examples for your server
 {% code title="autochat.cs" overflow="wrap" %}
 ```csharp
 using System;
-using RemnantServer;
+using REMNANT.Server;
  
 class Program
 {
@@ -39,7 +39,7 @@ class Program
 {% code title="dropitems.cs" overflow="wrap" %}
 ```csharp
 using System;
-using RemnantServer;
+using REMNANT.Server;
  
 class Program
 {
@@ -53,6 +53,31 @@ class Program
     {
         Console.WriteLine("dropitems.clear");
         Console.WriteLine("chat.say All dropped items deleted!");
+    }
+}
+```
+{% endcode %}
+
+### Teleport to player
+
+{% code title="teleport.cs" overflow="wrap" %}
+```csharp
+using UnityEngine;
+using REMNANT.Server;
+using REMNANT.Console;
+using REMNANT.Player;
+
+public class TeleportToPlayerPlugin : CommandBehaviour 
+{
+    [Command]
+    public void Teleport(string SteamId64)
+    {
+        bool canUseTp = ServerController.GetPerms(localPlayer.gameObject.GetComponemt<RemnantPlayerController>().SteamId, "Teleport");
+        GameObject otherPlayer = ServerController.GetPlayerById(SteamId64);
+        if(canUseTp)
+        {
+            localPlayer.gameObject. transform.position = otherPlayer.transform.position;
+        }
     }
 }
 ```
