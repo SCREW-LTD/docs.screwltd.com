@@ -70,8 +70,8 @@ public class Program
 {
     public void Teleport(string SteamId64_sender, string SteamId64_other)
     {
-        bool canUseTp = ServerController.GetPerms(localPlayer.gameObject.GetComponemt<RemnantPlayerController>().SteamId, "Teleport");
         GameObject senderPlayer = ServerController.GetPlayerById(SteamId64_sender);
+        bool canUseTp = ServerController.GetPerms(senderPlayer.GetComponemt<RemnantPlayerController>().SteamId, "Teleport");
         GameObject otherPlayer = ServerController.GetPlayerById(SteamId64_other);
         if(canUseTp)
         {
