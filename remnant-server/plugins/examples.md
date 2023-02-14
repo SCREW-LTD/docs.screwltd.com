@@ -82,7 +82,7 @@ public class Program
 ```
 {% endcode %}
 {% code title="In-game console" overflow="wrap" %}
-```csharp
+```bash
 How to use:
 > server_command Teleport(me, SteamId64_other)
 ```
