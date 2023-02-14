@@ -70,11 +70,11 @@ public class Program
 {
     public void Teleport(string SteamId64_sender, string SteamId64_other)
     {
-        GameObject senderPlayer = ServerController.GetPlayerById(SteamId64_sender);
-        bool canUseTp = ServerController.GetPerms(senderPlayer.GetComponemt<RemnantPlayerController>().SteamId, "Teleport");
-        GameObject otherPlayer = ServerController.GetPlayerById(SteamId64_other);
+        bool canUseTp = ServerController.GetPerms(SteamId64_sender, "Teleport");
         if(canUseTp)
         {
+            GameObject senderPlayer = ServerController.GetPlayerById(SteamId64_sender);
+            GameObject otherPlayer = ServerController.GetPlayerById(SteamId64_other);
             senderPlayer.transform.position = otherPlayer.transform.position;
         }
     }
