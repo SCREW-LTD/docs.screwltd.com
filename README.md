@@ -8,7 +8,7 @@ layout: landing
 ### REMNANT: SERVER WIKI
 
 {% hint style="success" %}
-[Open documentation](remnant-server/about)
+[Open documentation](https://docs.screwltd.com/remnant-servee/about)
 {% endhint %}
 
 ### UNITY SDK WIKI
