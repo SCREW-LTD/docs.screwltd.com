@@ -64,22 +64,27 @@ class Program
 ```csharp
 using UnityEngine;
 using REMNANT.Server;
-using REMNANT.Console;
 using REMNANT.Player;
 
-public class TeleportToPlayerPlugin : CommandBehaviour 
+public class Program 
 {
-    [Command]
-    public void Teleport(string SteamId64)
+    public void Teleport(string SteamId64_sender, string SteamId64_other)
     {
         bool canUseTp = ServerController.GetPerms(localPlayer.gameObject.GetComponemt<RemnantPlayerController>().SteamId, "Teleport");
-        GameObject otherPlayer = ServerController.GetPlayerById(SteamId64);
+        GameObject senderPlayer = ServerController.GetPlayerById(SteamId64_sender);
+        GameObject otherPlayer = ServerController.GetPlayerById(SteamId64_other);
         if(canUseTp)
         {
-            localPlayer.gameObject. transform.position = otherPlayer.transform.position;
+            senderPlayer.transform.position = otherPlayer.transform.position;
         }
     }
 }
+```
+{% endcode %}
+{% code title="In-game console" overflow="wrap" %}
+```csharp
+How to use:
+> server_command Teleport(me, SteamId64_other)
 ```
 {% endcode %}
 
