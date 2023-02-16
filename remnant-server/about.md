@@ -22,4 +22,4 @@ The server works on the client-server principle. To start working with it, make 
 Stable internet speed at <mark style="color:orange;">25</mark> Mbps
 {% endhint %}
 
-If your device is suitable, then you can proceed to the [next step](getting-started.md).
+If your device is suitable, then you can proceed to the [next step](getting-started).
