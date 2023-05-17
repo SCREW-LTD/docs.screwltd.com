@@ -8,18 +8,11 @@ layout: landing
 ### REMNANT: SERVER WIKI
 
 {% hint style="success" %}
-[Open documentation](https://docs.screwltd.com/remnant-servee/about)
+[Open documentation](remnant-server/about.md)
 {% endhint %}
 
-### UNITY SDK WIKI
+### SCREW LTD: InAppConnect
 
-{% hint style="warning" %}
-[Open documentation](unity-sdk/about)\
-<mark style="color:orange;">Documentation will be updated</mark>
-{% endhint %}
-
-### SCREW API WIKI
-
-{% hint style="danger" %}
-<mark style="color:red;">Temporarily unavailable</mark>
+{% hint style="success" %}
+[Open documentation](in-app-connect/about.md)
 {% endhint %}

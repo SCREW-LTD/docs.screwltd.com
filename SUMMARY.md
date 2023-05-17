@@ -12,6 +12,6 @@
   * [Examples](remnant-server/plugins/examples.md)
 * [Commands](remnant-server/commands.md)
 
-## UNITY SDK
+## In App Connect
 
-* [About](unity-sdk/about.md)
+* [About](in-app-connect/about.md)
