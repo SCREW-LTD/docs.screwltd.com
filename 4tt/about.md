@@ -5,7 +5,7 @@ coverY: 0
 
 # About
 
-A small class library on .NET Framework 4.7.1 that will allow you to transfer data from one application to another!
+A small class library on .NET Framework 4.7.1!
 
 Integrate the power of our innovative solution to enable your very own 2-Step Verification system. Embrace the simplicity of serverless authentication, seamlessly safeguarding your users through the utilization of a secret key and Unix timestamp.
 
