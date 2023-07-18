@@ -12,6 +12,8 @@
   * [Examples](remnant-server/plugins/examples.md)
 * [Commands](remnant-server/commands.md)
 
-## In App Connect
+## 4TT
 
-* [About](in-app-connect/about.md)
+* [About](4tt/about.md)
+* [How to use](4tt/how-to-use.md)
+* [Code snippet](4tt/code-snippet.md)

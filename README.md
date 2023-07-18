@@ -11,8 +11,8 @@ layout: landing
 [Open documentation](remnant-server/about.md)
 {% endhint %}
 
-### SCREW LTD: InAppConnect
+### SCREW LTD: 4TT SYSTEM
 
 {% hint style="success" %}
-[Open documentation](in-app-connect/about.md)
+[Open documentation](4tt/about.md)
 {% endhint %}
