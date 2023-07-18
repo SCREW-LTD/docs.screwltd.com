@@ -4,8 +4,6 @@ description: Example code for use library
 
 # Code snippet
 
-c
-
 ```csharp
 using System;
 using System.IO;
