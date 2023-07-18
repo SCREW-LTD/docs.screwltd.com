@@ -46,8 +46,15 @@ class Program
 
     static bool IsFileNotEmpty(string filePath)
     {
-        FileInfo fileInfo = new FileInfo(filePath);
-        return fileInfo.Length > 0;
+        try
+        {
+            FileInfo fileInfo = new FileInfo(filePath);
+            return fileInfo.Length > 0;
+        }
+        catch
+        {
+            return false;
+        }
     }
 }
 ```
