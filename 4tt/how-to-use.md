@@ -6,11 +6,11 @@ description: Integration examples
 
 Before you start using, you need to download the latest version of the dll:
 
-{% file src="../.gitbook/assets/Screw4TT.dll" %}
-v1.0.4
-{% endfile %}
-
 Add dependencies to your project and move on to the next step.
+
+{% embed url="https://github.com/SCREW-LTD/four-threading-tools/releases" %}
+download lastest verison
+{% endembed %}
 
 ## Code Samples
 
