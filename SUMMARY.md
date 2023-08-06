@@ -17,3 +17,8 @@
 * [About](4tt/about.md)
 * [How to use](4tt/how-to-use.md)
 * [Code snippet](4tt/code-snippet.md)
+
+## API
+
+* [About](api/about.md)
+* [How to use](api/how-to-use.md)
