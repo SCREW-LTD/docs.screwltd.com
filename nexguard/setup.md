@@ -13,7 +13,6 @@ Access is quite easy to obtain, but there are a couple of criteria:
 * Your project must have multiplayer
 * Copyright logo "SCREW LTD." must be present in your project
 * Your project must be 70% complete or more (a skeptical figure, meaning that the project must look at least like a playable prototype)
-*
 
 ### Project setup
 
