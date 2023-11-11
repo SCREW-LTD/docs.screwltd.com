@@ -29,7 +29,7 @@ What this anti-cheat can do:
 * Checking connected dlls to the game process
 * Working with API
 * Keeping logs and sending them to the server
-* Ability to communicate with [**SCREW API**](../api/about.md), view suspicious dlls and their statistics
+* Ability to connection with [**SCREW API**](../api/about.md), view suspicious dlls and their statistics
 * When working with [**SCREW API**](../api/about.md), the ability to permanently block dlls and set rules of behavior (Issuing an unconditional block to a player, an error starting the game, maintaining an increased log and recording game actions)
 
 Anti-cheat is fully adapted to any game engine, unlike its analogues (EAC, Battleye, etc.).&#x20;
