@@ -22,3 +22,9 @@ layout: landing
 {% hint style="success" %}
 [Open documentation](api/about.md)
 {% endhint %}
+
+### NexGuard
+
+{% hint style="success" %}
+[Open documentation](nexguard/about.md)
+{% endhint %}

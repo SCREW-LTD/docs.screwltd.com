@@ -22,3 +22,8 @@
 
 * [About](api/about.md)
 * [How to use](api/how-to-use.md)
+
+## NEXGUARD
+
+* [About](nexguard/about.md)
+* [Setup](nexguard/setup.md)
