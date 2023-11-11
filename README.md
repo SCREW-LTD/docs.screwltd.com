@@ -5,7 +5,13 @@ layout: landing
 
 # 🔩 Documentations
 
-### REMNANT: SERVER WIKI
+### NexGuard
+
+{% hint style="success" %}
+[Open documentation](nexguard/about.md)
+{% endhint %}
+
+### REMNANT: SERVER
 
 {% hint style="success" %}
 [Open documentation](remnant-server/about.md)
@@ -21,10 +27,4 @@ layout: landing
 
 {% hint style="success" %}
 [Open documentation](api/about.md)
-{% endhint %}
-
-### NexGuard
-
-{% hint style="success" %}
-[Open documentation](nexguard/about.md)
 {% endhint %}
