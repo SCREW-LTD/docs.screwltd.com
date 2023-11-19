@@ -1,5 +1,5 @@
 ---
-description: External anti-cheat for your games
+description: Free external anti-cheat for your games
 cover: ../.gitbook/assets/gitbookcover.png
 coverY: 0
 layout:
