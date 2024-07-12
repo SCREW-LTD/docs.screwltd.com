@@ -4,6 +4,8 @@ description: Integration examples
 
 # How to use
 
+***
+
 ## Chat response
 
 <mark style="color:green;">`POST`</mark> [`https://api.screwltd.com/v3/ai/generate`](https://api.screwltd.com/v3/ai/generate)
