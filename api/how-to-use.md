@@ -24,10 +24,6 @@ Makes a request to the Capricorn neural network.
 | `instructions` | string | Instructions for the bot     |
 | `history`      | array  | Chat history                 |
 
-**Response**
-
-{% tabs %}
-{% tab title="200" %}
 ```json
 {
   "message": "Hello!",
@@ -42,6 +38,16 @@ Makes a request to the Capricorn neural network.
       "parts": [{"text": ""}]
     }
   ]
+}
+```
+
+**Response**
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+  "text": "Hello my friend!"
 }
 ```
 {% endtab %}
