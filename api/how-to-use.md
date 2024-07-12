@@ -52,10 +52,10 @@ Makes a request to the Capricorn neural network.
 ```
 {% endtab %}
 
-{% tab title="400" %}
+{% tab title="500" %}
 ```json
 {
-  "error": "Error fetching data"
+  "error": "Failed to fetch data"
 }
 ```
 {% endtab %}
