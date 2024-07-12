@@ -5,10 +5,10 @@ layout: landing
 
 # 🔩 Documentations
 
-### NexGuard
+### SCREW LTD: API
 
 {% hint style="success" %}
-[Open documentation](nexguard/about.md)
+[Open documentation](api/about.md)
 {% endhint %}
 
 ### REMNANT: SERVER
@@ -21,10 +21,4 @@ layout: landing
 
 {% hint style="success" %}
 [Open documentation](4tt/about.md)
-{% endhint %}
-
-### SCREW LTD: API (temporarily unavailable)
-
-{% hint style="danger" %}
-[Open documentation](api/about.md)
 {% endhint %}

@@ -2,6 +2,11 @@
 
 * [🔩 Documentations](README.md)
 
+## API
+
+* [About](api/about.md)
+* [How to use](api/how-to-use.md)
+
 ## REMNANT: SERVER
 
 * [About](remnant-server/about.md)
@@ -17,13 +22,3 @@
 * [About](4tt/about.md)
 * [How to use](4tt/how-to-use.md)
 * [Code snippet](4tt/code-snippet.md)
-
-## API
-
-* [About](api/about.md)
-* [How to use](api/how-to-use.md)
-
-## NEXGUARD
-
-* [About](nexguard/about.md)
-* [Setup](nexguard/setup.md)
