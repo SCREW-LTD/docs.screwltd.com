@@ -22,6 +22,7 @@ Makes a request to the Capricorn neural network.
 | -------------- | ------ | ---------------------------- |
 | `message`      | string | Message requiring a response |
 | `instructions` | string | Instructions for the bot     |
+| `history`      | array  | Chat history                 |
 
 **Response**
 
