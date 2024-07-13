@@ -20,12 +20,16 @@ Makes a request to the Capricorn neural network.
 
 **Body**
 
-| Name           | Type   | Description                  |
-| -------------- | ------ | ---------------------------- |
-| `message`      | string | Message requiring a response |
-| `instructions` | string | Instructions for the bot     |
-| `history`      | array  | Chat history                 |
+| Name           | Type   | Description                         |
+| -------------- | ------ | ----------------------------------- |
+| `message`      | string | Message requiring a response        |
+| `instructions` | string | Instructions for the bot            |
+| `history`      | array  | Chat history                        |
+| `chatId`       | uuid   | Chat history ID saved in the cloud. |
 
+Using the `history` attribute together with `chatId` is not possible. Please save the data either on our servers or on your own resources.
+
+{% code title="Local save" %}
 ```json
 {
   "message": "Hello!",
@@ -42,6 +46,17 @@ Makes a request to the Capricorn neural network.
   ]
 }
 ```
+{% endcode %}
+
+{% code title="Cloud save" %}
+```json
+{
+  "message": "Hello!",
+  "instructions": "Use a formal communication style",
+  "chatId": "uuid"
+}
+```
+{% endcode %}
 
 **Response**
 
