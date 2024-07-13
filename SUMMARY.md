@@ -5,7 +5,7 @@
 ## API
 
 * [About](api/about.md)
-* [How to use](api/how-to-use.md)
+* [AI REQUESTS](api/ai-requests.md)
 
 ## REMNANT: SERVER
 

@@ -30,4 +30,4 @@ Developers love working with our API because it's designed with simplicity and f
 
 Take your application's security and functionality to the next level with our Open API. Join our community of developers and create a more secure, feature-rich experience for your users today.
 
-Check it out: [How to use](how-to-use.md)!
+Check it out: [AI REQUESTS](ai-requests.md)!
