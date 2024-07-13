@@ -6,6 +6,12 @@ description: Integration examples
 
 ***
 
+## AI
+
+Avalible models:
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Capricorn (3.8)</strong></td><td>The fastest model. </td><td>Suitable for those who value response speed.</td></tr><tr><td><strong>Capricorn (4.0)</strong></td><td>Latest model.</td><td>Smarter than his predecessor, but takes longer to respond.</td></tr></tbody></table>
+
 ## Chat response
 
 <mark style="color:green;">`POST`</mark> [`https://api.screwltd.com/v3/ai/generate`](https://api.screwltd.com/v3/ai/generate)
@@ -20,12 +26,13 @@ Makes a request to the Capricorn neural network.
 
 **Body**
 
-| Name           | Type   | Description                         |
-| -------------- | ------ | ----------------------------------- |
-| `message`      | string | Message requiring a response        |
-| `instructions` | string | Instructions for the bot            |
-| `history`      | array  | Chat history                        |
-| `chatId`       | uuid   | Chat history ID saved in the cloud. |
+| Name           | Type     | Description                         |
+| -------------- | -------- | ----------------------------------- |
+| `message`      | string   | Message requiring a response        |
+| `instructions` | string   | Instructions for the bot            |
+| `version`      | 3.8 or 4 | Selects model version               |
+| `history`      | array    | Chat history                        |
+| `chatId`       | uuid     | Chat history ID saved in the cloud. |
 
 Using the `history` attribute together with `chatId` is not possible. Please save the data either on our servers or on your own resources.
 
@@ -34,6 +41,7 @@ Using the `history` attribute together with `chatId` is not possible. Please sav
 {
   "message": "Hello!",
   "instructions": "Use a formal communication style",
+  "version": "3.8",
   "history": [
     {
       "role": "user",
@@ -53,6 +61,7 @@ Using the `history` attribute together with `chatId` is not possible. Please sav
 {
   "message": "Hello!",
   "instructions": "Use a formal communication style",
+  "version": "3.8",
   "chatId": "uuid"
 }
 ```
