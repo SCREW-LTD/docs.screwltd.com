@@ -27,14 +27,14 @@ Makes a request to the Capricorn neural network.
 
 **Body**
 
-| Name           | Type     | Description                         |
-| -------------- | -------- | ----------------------------------- |
-| `message*`     | string   | Message requiring a response        |
-| `version*`     | 3.8 or 4 | Selects model version               |
-| `instructions` | string   | Instructions for the bot            |
-| `history`      | array    | Chat history                        |
-| `chatId`       | uuid     | Chat history ID saved in the cloud. |
-| `userData`     | json     | Information about the current user  |
+| Name                                         | Type     | Description                         |
+| -------------------------------------------- | -------- | ----------------------------------- |
+| `message`<mark style="color:red;">`*`</mark> | string   | Message requiring a response        |
+| `version`<mark style="color:red;">`*`</mark> | 3.8 or 4 | Selects model version               |
+| `instructions`                               | string   | Instructions for the bot            |
+| `history`                                    | array    | Chat history                        |
+| `chatId`                                     | uuid     | Chat history ID saved in the cloud. |
+| `userData`                                   | json     | Information about the current user  |
 
 Using the `history` attribute together with `chatId` is not possible. Please save the data either on our servers or on your own resources.
 
