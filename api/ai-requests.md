@@ -2,7 +2,7 @@
 description: Integration examples
 ---
 
-# How to use
+# AI REQUESTS
 
 ***
 
@@ -23,16 +23,18 @@ Makes a request to the Capricorn neural network.
 | Name         | Value              |
 | ------------ | ------------------ |
 | Content-Type | `application/json` |
+| X-API-KEY    | `api/uuid`         |
 
 **Body**
 
 | Name           | Type     | Description                         |
 | -------------- | -------- | ----------------------------------- |
-| `message`      | string   | Message requiring a response        |
+| `message*`     | string   | Message requiring a response        |
+| `version*`     | 3.8 or 4 | Selects model version               |
 | `instructions` | string   | Instructions for the bot            |
-| `version`      | 3.8 or 4 | Selects model version               |
 | `history`      | array    | Chat history                        |
 | `chatId`       | uuid     | Chat history ID saved in the cloud. |
+| `userData`     | json     | Information about the current user  |
 
 Using the `history` attribute together with `chatId` is not possible. Please save the data either on our servers or on your own resources.
 
