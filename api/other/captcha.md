@@ -49,8 +49,8 @@ Checks the correctness of the passage
 {% tab title="200" %}
 ```json
 {
-    success: true, 
-    message: "CAPTCHA passed"
+  "success": true, 
+  "message": "CAPTCHA passed"
 }
 ```
 {% endtab %}
@@ -58,8 +58,8 @@ Checks the correctness of the passage
 {% tab title="400" %}
 ```json
 {
-    success: false, 
-    message: "CAPTCHA failed"
+  "success": false, 
+  "message": "CAPTCHA failed"
 }
 ```
 {% endtab %}

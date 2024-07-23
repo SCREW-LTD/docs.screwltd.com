@@ -31,7 +31,7 @@ Uploads a file to the server
 {% tab title="200" %}
 ```json
 {
-    message: "File uploaded successfully",
+  "message": "File uploaded successfully",
 }
 ```
 {% endtab %}
