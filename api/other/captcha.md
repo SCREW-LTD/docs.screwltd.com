@@ -20,6 +20,15 @@ Captcha generation
 **Response**
 
 {% tabs %}
+{% tab title="200" %}
+```json
+{
+  "token": "uuid",
+  "captcha": "image/svg"
+}
+```
+{% endtab %}
+
 {% tab title="400" %}
 ```json
 {
