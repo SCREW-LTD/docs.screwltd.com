@@ -2,7 +2,7 @@
 
 ***
 
-## Create a new user
+## Generate image
 
 <mark style="color:green;">`GET`</mark> [`https://api.screwltd.com/v3/captcha/generate`](https://api.screwltd.com/v3/captcha/generate)
 
