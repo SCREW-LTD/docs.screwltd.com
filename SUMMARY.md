@@ -5,7 +5,12 @@
 ## API
 
 * [About](api/about.md)
-* [AI REQUESTS](api/ai-requests.md)
+* [Cloud](api/cloud/README.md)
+  * [Storage](api/cloud/storage.md)
+* [AI](api/ai/README.md)
+  * [Capricorn](api/ai/capricorn.md)
+* [Other](api/other/README.md)
+  * [Captcha](api/other/captcha.md)
 
 ## REMNANT: SERVER
 

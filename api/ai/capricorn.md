@@ -1,22 +1,20 @@
 ---
-description: Integration examples
+description: Text generation neural network
 ---
 
-# AI REQUESTS
-
-***
-
-## AI
+# Capricorn
 
 Avalible models:
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Capricorn (3.8)</strong></td><td>The fastest model. </td><td>Suitable for those who value response speed.</td></tr><tr><td><strong>Capricorn (4.0)</strong></td><td>Latest model.</td><td>Smarter than his predecessor, but takes longer to respond.</td></tr></tbody></table>
 
+***
+
 ## Chat response
 
 <mark style="color:green;">`POST`</mark> [`https://api.screwltd.com/v3/ai/generate`](https://api.screwltd.com/v3/ai/generate)
 
-Makes a request to the Capricorn neural network.
+Makes a request to the Capricorn AI.
 
 **Headers**
 
