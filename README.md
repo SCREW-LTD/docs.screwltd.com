@@ -11,14 +11,8 @@ layout: landing
 [Open documentation](api/about.md)
 {% endhint %}
 
-### REMNANT: SERVER
+### SCREW LTD: SDK
 
-{% hint style="success" %}
-[Open documentation](remnant-server/about.md)
-{% endhint %}
-
-### SCREW LTD: 4TT SYSTEM
-
-{% hint style="success" %}
-[Open documentation](4tt/about.md)
+{% hint style="danger" %}
+Work in progress
 {% endhint %}
