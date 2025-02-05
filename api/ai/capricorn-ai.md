@@ -2,9 +2,9 @@
 description: Text generation neural network.
 ---
 
-# Capricorn A
+# Capricorn AI
 
-Avalible models:
+Best models:
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Capricorn Mini</strong></td><td>The fastest model. </td><td>Suitable for those who value response speed</td></tr><tr><td><strong>Capricorn (4.3)</strong></td><td>Latest model.</td><td>Has functions and better text generation</td></tr></tbody></table>
 
