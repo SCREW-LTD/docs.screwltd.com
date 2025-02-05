@@ -21,7 +21,7 @@ Makes a request to the Capricorn AI.
 | Name         | Value              |
 | ------------ | ------------------ |
 | Content-Type | `application/json` |
-| X-API-KEY    | `api/uuid`         |
+| X-API-KEY    | `uuid`             |
 
 **Body**
 
