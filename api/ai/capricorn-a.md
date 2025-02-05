@@ -1,8 +1,8 @@
 ---
-description: Text generation neural network
+description: Text generation neural network.
 ---
 
-# Capricorn
+# Capricorn A
 
 Avalible models:
 
@@ -36,6 +36,7 @@ Makes a request to the Capricorn AI.
 | `chatId`                                     | uuid     | Chat history ID saved in the cloud.    |
 | `userData`                                   | json     | Information about the current user     |
 | `temperature`                                | int      | Creativity of the answer, from 0 to 2. |
+| `files`                                      | byte\[]  | An array of files for AI analysis.     |
 
 Using the `history` attribute together with `chatId` is not possible. Please save the data either on our servers or on your own resources.
 
@@ -71,6 +72,8 @@ Using the `history` attribute together with `chatId` is not possible. Please sav
 }
 ```
 {% endcode %}
+
+All models have **machine vision**. You can send up to **10** `pictures`/`audio`/`video` for neural network analysis.
 
 **Response**
 
