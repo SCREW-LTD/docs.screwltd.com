@@ -95,7 +95,7 @@ Using the `history` attribute together with `chatId` is not possible. Please sav
 {% tab title="500" %}
 ```json
 {
-  "error": "Failed to fetch data"
+  "error": "Capricorn was unable to generate text..."
 }
 ```
 {% endtab %}
