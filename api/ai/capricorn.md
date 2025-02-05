@@ -8,6 +8,8 @@ Avalible models:
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Capricorn Mini</strong></td><td>The fastest model. </td><td>Suitable for those who value response speed</td></tr><tr><td><strong>Capricorn (4.3)</strong></td><td>Latest model.</td><td>Has functions and better text generation</td></tr></tbody></table>
 
+All models you can use: `Mini`, `3.8`, `4`, `4.1`, `4.2`, `4.3`, `4.3F`
+
 ***
 
 ## Chat response
