@@ -14,9 +14,17 @@ All models you can use: `Mini`, `3.8`, `4`, `4.1`, `4.2`, `4.3`, `4.3F`, `4.4`
 
 ## Chat response
 
+<sub>GLOBAL:</sub>
+
 <mark style="color:green;">`POST`</mark> [`https://api.screwltd.com/v3/ai/generate`](https://api.screwltd.com/v3/ai/generate)
 
 <mark style="color:green;">`POST`</mark> [`https://api.screwltd.com/v3/ai/generate/:modelId`](https://api.screwltd.com/v3/ai/generate)
+
+<sub>CIS:</sub>
+
+<mark style="color:green;">`POST`</mark> [`https://api.acceptancegroup.net/v3/ai/generate/`](https://api.screwltd.com/v3/ai/generate)
+
+<mark style="color:green;">`POST`</mark> [`https://api.acceptancegroup.net/v3/ai/generate/:modelId`](https://api.screwltd.com/v3/ai/generate)
 
 Makes a request to the Capricorn AI.
 
