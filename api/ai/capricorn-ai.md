@@ -6,7 +6,7 @@ description: Text generation neural network.
 
 Best models:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Capricorn Mini</strong></td><td>The fastest model. </td><td>Suitable for those who value response speed</td></tr><tr><td><strong>Capricorn (4.4a)</strong></td><td>Latest model.</td><td>Has functions and better text generation</td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Capricorn Mini</strong></td><td>The fastest model. </td><td>Suitable for those who value response speed</td></tr><tr><td><strong>Capricorn (4.4b)</strong></td><td>Latest model.</td><td>Has functions and better text generation</td></tr></tbody></table>
 
 All models you can use: `Mini`, `3.8`, `4`, `4.1`, `4.2`, `4.3`, `4.3F`, `4.4`
 
@@ -22,9 +22,9 @@ All models you can use: `Mini`, `3.8`, `4`, `4.1`, `4.2`, `4.3`, `4.3F`, `4.4`
 
 <sub>CIS:</sub>
 
-<mark style="color:green;">`POST`</mark> [`https://api.acceptancegroup.net/v3/ai/generate/`](https://api.screwltd.com/v3/ai/generate)
+<mark style="color:green;">`POST`</mark> [`https://api.acceptancegroup.org/v3/ai/generate/`](https://api.screwltd.com/v3/ai/generate)
 
-<mark style="color:green;">`POST`</mark> [`https://api.acceptancegroup.net/v3/ai/generate/:modelId`](https://api.screwltd.com/v3/ai/generate)
+<mark style="color:green;">`POST`</mark> [`https://api.acceptancegroup.org/v3/ai/generate/:modelId`](https://api.screwltd.com/v3/ai/generate)
 
 Makes a request to the Capricorn AI.
 
@@ -37,17 +37,17 @@ Makes a request to the Capricorn AI.
 
 **Body**
 
-| Name                                         | Type     | Description                                                    |
-| -------------------------------------------- | -------- | -------------------------------------------------------------- |
-| `message`<mark style="color:red;">`*`</mark> | string   | Message requiring a response                                   |
-| `version`<mark style="color:red;">`*`</mark> | 3.8 or 4 | Selects model version                                          |
-| `instructions`                               | string   | Instructions for the bot                                       |
-| `history`                                    | array    | Chat history                                                   |
-| `chatId`                                     | uuid     | Chat history ID saved in the cloud.                            |
-| `userData`                                   | json     | Information about the current user                             |
-| `temperature`                                | int      | Creativity of the answer, from 0 to 2.                         |
-| `files`                                      | byte\[]  | An array of files for AI analysis.                             |
-| `deepThinking`                               | bool     | Thinking about the answer. Available in version 4.4 and above. |
+| Name                                         | Type    | Description                                                    |
+| -------------------------------------------- | ------- | -------------------------------------------------------------- |
+| `message`<mark style="color:red;">`*`</mark> | string  | Message requiring a response                                   |
+| `version`<mark style="color:red;">`*`</mark> | string  | Selects model version                                          |
+| `instructions`                               | string  | Instructions for the bot                                       |
+| `history`                                    | array   | Chat history                                                   |
+| `chatId`                                     | uuid    | Chat history ID saved in the cloud.                            |
+| `userData`                                   | json    | Information about the current user                             |
+| `temperature`                                | int     | Creativity of the answer, from 0 to 2.                         |
+| `files`                                      | byte\[] | An array of files for AI analysis.                             |
+| `deepThinking`                               | bool    | Thinking about the answer. Available in version 4.4 and above. |
 
 Using the `history` attribute together with `chatId` is not possible. Please save the data either on our servers or on your own resources.
 
